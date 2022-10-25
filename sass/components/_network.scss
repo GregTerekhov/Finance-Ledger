@@ -1,0 +1,10 @@
+.network {
+    @extend %link;
+    color: getColor('textInverse');
+    text-align: center;
+}
+
+.network__icon {
+    fill: getColor('textPrimary');
+    background-color: getColor('textInverse');
+}

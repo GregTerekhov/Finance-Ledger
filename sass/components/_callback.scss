@@ -1,0 +1,18 @@
+// .callback {
+// }
+
+.callback__container {
+    display: flex;
+    margin-right: 30px;
+}
+
+.callback__title {
+    display: block;
+    @extend %indentsReset;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.263;
+
+    margin-right: auto;
+    margin-left: auto;
+}

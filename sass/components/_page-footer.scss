@@ -1,0 +1,22 @@
+.page-footer {
+    background-color: getColor('bgFooter');
+}
+
+.page-footer__list {
+    @extend %list;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+// .page-footer__item {
+
+// }
+
+.page-footer__copy {
+    font-size: 18px;
+    line-height: 1.564;
+    text-align: center;
+    color: getColor('textInverse');
+}

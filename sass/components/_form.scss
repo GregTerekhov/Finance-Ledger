@@ -1,0 +1,21 @@
+.form {
+    @extend %indentsReset;
+    display: block
+}
+.form__input {
+    display: block;
+    padding: 6px 5px 5px;
+
+    border: 1px solid getColor('borderInput');
+    border-radius: 0px; 
+    background-color: getColor('bgPrimary');
+
+    &::placeholder {
+        font-size: 18px;
+        line-height: 1.564;
+        color: getColor('textPlacehold');
+    }        
+}
+
+// .form__button {
+// }

@@ -1,0 +1,21 @@
+.logo {
+    @extend %link;
+    @extend %indentsReset;
+    display: flex;
+    align-items: center;
+    padding: 11px 0;
+
+    font-size: 35px;
+    line-height: 1.206;
+    letter-spacing: 0.03em;
+    color: getColor('textInverse');
+
+    &--brand {
+        color: getColor('brand');
+    }
+}
+
+.logo__icon {
+    fill: getColor('brand');
+    margin-right: 10px;
+}

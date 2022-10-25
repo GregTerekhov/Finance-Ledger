@@ -1,0 +1,11 @@
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    min-height: 768px;
+    margin: 0 auto;
+
+    background-image: url('..//../images/hero.jpg'), linear-gradient(getColor('bgOverlay'), getColor('bgOverlay')),;
+    background-position: center;
+}

@@ -1,0 +1,30 @@
+$colors: (
+    'brand': #28A745,
+    'bgPrimary': #ffffff,
+    'bgSecondary': #F4F4F4,
+    'bgBlog': #0284D0,
+    'bgFooter': #333333,
+    'bgOverlay': #33333380,
+    'borderInput': #F5F5F5,
+    'textPrimary': #333333,
+    'textInverse': #ffffff,
+    'textHero': #E9E9E9,
+    'textPlacehold': #808080,
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.556;
+    color: getColor('textPrimary');
+    background-color: getColor('bgPrimary');
+}
+
+.container {
+    width: 1360px;
+    padding: 0 28px;
+    margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination__list {
+    @extend %list;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.pagination__link {
+    @extend %link;
+    padding: 21px 0;
+
+    color: getColor('textInverse');
+}

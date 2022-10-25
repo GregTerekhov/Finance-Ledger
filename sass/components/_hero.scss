@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    @extend %indentsReset;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+    text-transform: capitalize;
+
+    width: 493px;
+
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: getColor('textHero');
+}
+
+.hero__text {
+    @extend %indentsReset;
+}
+
+.hero__button {
+    @extend %button;
+    width: 165px;
+    height: 50px;
+    color: getColor('textInverse');
+    background-color: getColor('brand');
+    font-size: 18px;
+
+    border-radius: 5px;
+}
+
+.hero__icon {
+    fill: currentColor;
+}

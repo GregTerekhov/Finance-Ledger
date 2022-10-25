@@ -1,0 +1,26 @@
+.about {
+    padding-top: 40px;
+    padding-bottom: 19px;
+}
+.about__title {
+    @extend %visually-hidden;
+}
+
+.about__list {
+    @extend %list;
+    display: flex;
+    justify-content: center;
+}
+
+// .about__thumb {
+// }
+// .about__icon {
+// }
+
+.about__subtitle {
+    font-size: 20px;
+    line-height: 1.647;
+}
+.about__descr {
+    font-size: 18px;
+}
